@@ -1,0 +1,7 @@
+f=open('sample.txt','a+')
+str=input()
+f.write(str)
+f.seek(0,0)
+a=f.read()
+print(a)
+f.close()
